@@ -59,7 +59,7 @@ export function SearchBar({ className, placeholder = 'Search stocks...' }: Searc
     const handleSelect = (symbol: string) => {
         setQuery('');
         setShowResults(false);
-        navigate(`/stock/${symbol}`);
+        navigate(`/app/stock/${symbol}`);
     };
 
     const handleClear = () => {
