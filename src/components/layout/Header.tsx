@@ -19,7 +19,7 @@ export function Header() {
                     {/* Logo */}
                     <Link to="/" className="flex items-center gap-2 font-bold text-xl text-primary-600 dark:text-primary-400">
                         <TrendingUp className="w-8 h-8" />
-                        <span className="hidden sm:inline">StockIQ</span>
+                        <span className="hidden sm:inline">StockIntel</span>
                     </Link>
 
                     {/* Search Bar - Desktop */}
