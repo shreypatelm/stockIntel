@@ -174,5 +174,4 @@ Remove stock holding from portfolio.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to
-submit pull requests or open issues.
+Contributions are welcome from group members.
