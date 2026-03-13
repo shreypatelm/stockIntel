@@ -34,5 +34,5 @@ jobs:
           python-version: '3.11'
 
       - name: Install Backend Dependencies
-        run: |
-          pip install -r requirements.txt
+        working-directory: ./backend
+        run: pip install -r requirements.txt
