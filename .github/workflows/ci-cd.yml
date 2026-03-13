@@ -23,9 +23,11 @@ jobs:
           node-version: '18'
 
       - name: Install Frontend Dependencies
+        working-directory: ./frontend
         run: npm install --legacy-peer-deps
 
       - name: Build Frontend
+        working-directory: ./frontend
         run: npm run build
 
       - name: Setup Python
